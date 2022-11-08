@@ -17,7 +17,7 @@
 
         <spring-boot.version>2.7.3</spring-boot.version>
 
-        <judo-runtime-core-version>1.0.4.20221107_100511_dcc9b7ba_develop</judo-runtime-core-version>
+        <judo-runtime-core-version>1.0.4.20221107_125804_82a84768_develop</judo-runtime-core-version>
     </properties>
 
     <developers>
