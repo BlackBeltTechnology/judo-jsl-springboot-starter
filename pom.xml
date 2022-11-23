@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.judo</groupId>
     <artifactId>judo-spring-boot-starter</artifactId>
@@ -17,7 +15,7 @@
 
         <spring-boot.version>2.7.3</spring-boot.version>
 
-        <judo-runtime-core-version>1.0.4.20221107_125804_82a84768_develop</judo-runtime-core-version>
+        <judo-runtime-core-version>1.0.4.20221123_203432_3636255e_develop</judo-runtime-core-version>
     </properties>
 
     <developers>
