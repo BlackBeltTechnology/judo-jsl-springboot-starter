@@ -6,6 +6,7 @@
 
     <name>JUDO JSL :: Springboot Starter</name>
     <description>JUDO Stater project to support JSL-based Spring Boot application development</description>
+    <packaging>pom</packaging>
 
     <properties>
         <revision>1.0.3-SNAPSHOT</revision>
@@ -171,6 +172,8 @@
                 <artifactId>flatten-maven-plugin</artifactId>
                 <version>1.3.0</version>
                 <configuration>
+                    <updatePomFile>true</updatePomFile>
+                    <flattenMode>bom</flattenMode>
                 </configuration>
                 <executions>
                     <execution>
