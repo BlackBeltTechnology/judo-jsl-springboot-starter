@@ -8,7 +8,7 @@
     <description>JUDO Stater project to support JSL-based Spring Boot application development</description>
 
     <properties>
-        <revision>1.0.1-SNAPSHOT</revision>
+        <revision>1.0.1</revision>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project-repositoryId>BlackBeltTechnology/judo-jsl-springboot-starter</project-repositoryId>
