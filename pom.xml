@@ -6,7 +6,7 @@
 
     <name>JUDO JSL :: Springboot Starter</name>
     <description>JUDO Stater project to support JSL-based Spring Boot application development</description>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <revision>1.0.4-SNAPSHOT</revision>
