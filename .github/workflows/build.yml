@@ -198,7 +198,7 @@ jobs:
           if [ "${{ job.status }}" == "canceled" ]; then
             message=":x: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"    
           fi
-          echo "::set-output name=message::${message}"
+          echo "MESSAGE=${message}" >> $GITHUB_OUTPUT
 
       - name: 📢 Send message to discord
         uses: sarisia/actions-status-discord@v1
