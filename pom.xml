@@ -184,6 +184,12 @@
 
         <dependency>
             <groupId>hu.blackbelt.judo.generator</groupId>
+            <artifactId>judo-psm-generator-sdk-core-common</artifactId>
+            <version>${judo-psm-generator-sdk-core-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>hu.blackbelt.judo.generator</groupId>
             <artifactId>judo-psm-generator-sdk-core-api</artifactId>
             <version>${judo-psm-generator-sdk-core-version}</version>
         </dependency>
