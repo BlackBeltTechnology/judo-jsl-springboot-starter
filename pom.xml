@@ -20,8 +20,8 @@
 
         <spring-boot.version>2.7.3</spring-boot.version>
 
-   		<judo-runtime-core-version>1.0.6.20230824_041623_e4426618_develop</judo-runtime-core-version>
-        <judo-psm-generator-sdk-core-version>1.0.0.20230818_054940_535764f1_develop</judo-psm-generator-sdk-core-version>
+   		<judo-runtime-core-version>1.0.6.20230826_215054_f80a9866_feature_JNG_5144_ReplaceLogger</judo-runtime-core-version>
+        <judo-psm-generator-sdk-core-version>1.0.0.20230826_204806_b8a79aad_feature_JNG_5144_ReplaceLogger</judo-psm-generator-sdk-core-version>
 
         <!--suppress UnresolvedMavenProperty -->
         <logback-test-config>${maven.multiModuleProjectDirectory}/logback-test.xml</logback-test-config>
