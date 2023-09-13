@@ -21,7 +21,7 @@
         <spring-boot.version>2.7.3</spring-boot.version>
 
 
-   		<judo-runtime-core-version>1.0.6.20230912_043037_74721cbc_develop</judo-runtime-core-version>
+   		<judo-runtime-core-version>1.0.6.20230913_082338_96096e3d_feature_JNG_4356_Unmapped_transfer_throws_validation_error_to_mapped_transfer_mandatory_attributes</judo-runtime-core-version>
         <judo-psm-generator-sdk-core-version>1.0.0.20230912_041701_9f49da18_develop</judo-psm-generator-sdk-core-version>
 
         <!--suppress UnresolvedMavenProperty -->
