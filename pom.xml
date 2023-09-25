@@ -20,7 +20,7 @@
 
         <spring-boot.version>2.7.3</spring-boot.version>
 
-   		<judo-runtime-core-version>1.0.6.20230922_132937_59d2c09b_feature_JNG_5089_The_payload_not_contains_the_recursive_single_relation_on_the_sublevels</judo-runtime-core-version>
+   		<judo-runtime-core-version>1.0.6.20230925_081834_9c618125_feature_JNG_5089_The_payload_not_contains_the_recursive_single_relation_on_the_sublevels</judo-runtime-core-version>
         <judo-psm-generator-sdk-core-version>1.0.0.20230923_041745_dfc4ca09_develop</judo-psm-generator-sdk-core-version>
 
         <!--suppress UnresolvedMavenProperty -->
