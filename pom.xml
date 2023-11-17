@@ -20,8 +20,8 @@
 
         <spring-boot.version>2.7.3</spring-boot.version>
 
-   		<judo-runtime-core-version>1.0.6.20231110_040919_ad19e1b8_develop</judo-runtime-core-version>
-        <judo-psm-generator-sdk-core-version>1.0.0.20231115_160022_9e58e726_feature_JNG_5286_Builder_contains_relation_for_dao_create</judo-psm-generator-sdk-core-version>
+   		<judo-runtime-core-version>1.0.6.20231117_041023_1a6f59d6_develop</judo-runtime-core-version>
+        <judo-psm-generator-sdk-core-version>1.0.0.20231117_110038_aeb8f581_feature_JNG_5286_Builder_contains_relation_for_dao_create</judo-psm-generator-sdk-core-version>
 
         <!--suppress UnresolvedMavenProperty -->
         <logback-test-config>${maven.multiModuleProjectDirectory}/logback-test.xml</logback-test-config>
