@@ -20,8 +20,8 @@
 
         <spring-boot.version>2.7.3</spring-boot.version>
 
-   		<judo-runtime-core-version>1.0.6.20240404_194017_fc264b1a_feature_JNG_5627_Replace_the_structured_map_proxy</judo-runtime-core-version>
-        <judo-psm-generator-sdk-core-version>1.0.0.20240404_193720_10453ccb_feature_JNG_5627_Replace_the_structured_map_proxy</judo-psm-generator-sdk-core-version>
+   		<judo-runtime-core-version>1.0.6.20240405_121033_7956d4a3_feature_JNG_5627_Replace_the_structured_map_proxy</judo-runtime-core-version>
+        <judo-psm-generator-sdk-core-version>1.0.0.20240405_120740_d57a9870_feature_JNG_5627_Replace_the_structured_map_proxy</judo-psm-generator-sdk-core-version>
 
         <!--suppress UnresolvedMavenProperty -->
         <logback-test-config>${maven.multiModuleProjectDirectory}/logback-test.xml</logback-test-config>
