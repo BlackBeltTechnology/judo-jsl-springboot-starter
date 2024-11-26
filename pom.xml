@@ -20,13 +20,15 @@
 
         <spring-boot.version>2.7.3</spring-boot.version>
 
-   		<judo-runtime-core-version>1.0.6.20241122_162056_bf708b50_develop</judo-runtime-core-version>
-        <judo-psm-generator-sdk-core-version>1.0.0.20241024_041535_778614b3_develop</judo-psm-generator-sdk-core-version>
+   		<judo-runtime-core-version>1.0.6.20241126_020121_838877e7_feature_JNG_5995_UpdateEclipse</judo-runtime-core-version>
+        <judo-psm-generator-sdk-core-version>1.0.0.20241126_015441_d52d17e6_feature_JNG_5995_UpdateEclipse</judo-psm-generator-sdk-core-version>
 
         <!--suppress UnresolvedMavenProperty -->
         <logback-test-config>${maven.multiModuleProjectDirectory}/logback-test.xml</logback-test-config>
+        <logback-version>1.5.12</logback-version>
+        <lombok-version>1.18.34</lombok-version>
 
-        <surefire-version>3.0.0-M7</surefire-version>
+        <surefire-version>3.5.1</surefire-version>
 
         <!-- Code Quality-->
         <sonar-maven-plugin-version>3.9.1.2184</sonar-maven-plugin-version>
@@ -34,7 +36,7 @@
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.language>java</sonar.language>
         <sonar.java.source>${java.version}</sonar.java.source>
-        <jacoco.version>0.8.8</jacoco.version>
+        <jacoco.version>0.8.12</jacoco.version>
     </properties>
 
     <developers>
@@ -209,7 +211,8 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.4.1</version>
+            <version>${logback-version}</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
@@ -324,7 +327,7 @@
                     <dependency>
                         <groupId>org.projectlombok</groupId>
                         <artifactId>lombok</artifactId>
-                        <version>1.18.24</version>
+                        <version>${lombok-version}</version>
                     </dependency>
                 </dependencies>
             </plugin>
