@@ -18,7 +18,7 @@
 
         <project-repositoryId>BlackBeltTechnology/judo-jsl-springboot-starter</project-repositoryId>
 
-        <spring-boot.version>2.7.3</spring-boot.version>
+        <spring-boot.version>3.0.4</spring-boot.version>
 
    		<judo-runtime-core-version>1.0.6.20250319_120819_c50de7bf_develop</judo-runtime-core-version>
         <judo-psm-generator-sdk-core-version>1.0.0.20250505_183426_16f4bf02_develop</judo-psm-generator-sdk-core-version>
