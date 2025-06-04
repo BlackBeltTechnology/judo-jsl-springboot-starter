@@ -20,8 +20,8 @@
 
         <spring-boot.version>3.5.0</spring-boot.version>
 
-   		<judo-runtime-core-version>1.0.6.20250604_173456_21d07cdf_feature_JNG_6310_UpdateEpsilon</judo-runtime-core-version>
-        <judo-psm-generator-sdk-core-version>1.0.0.20250604_125133_32c11fa7_feature_JNG_6310_UpdateEpsilon</judo-psm-generator-sdk-core-version>
+   		<judo-runtime-core-version>1.0.6.20250604_203217_9bf0ce62_feature_JNG_6310_UpdateEpsilon</judo-runtime-core-version>
+        <judo-psm-generator-sdk-core-version>1.0.0.20250604_202312_f8f38d2f_feature_JNG_6310_UpdateEpsilon</judo-psm-generator-sdk-core-version>
         <antlr-runtime-version>3.2</antlr-runtime-version>
 
         <!--suppress UnresolvedMavenProperty -->
