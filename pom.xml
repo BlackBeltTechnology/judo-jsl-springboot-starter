@@ -20,8 +20,8 @@
 
         <spring-boot.version>3.5.0</spring-boot.version>
 
-   		<judo-runtime-core-version>1.0.6.20250818_024652_34874920_feature_JNG_6322_Minimiize_Karaf_Size</judo-runtime-core-version>
-        <judo-psm-generator-sdk-core-version>1.0.0.20250818_022801_22fda07a_feature_JNG_6322_Minimiize_Karaf_Size</judo-psm-generator-sdk-core-version>
+   		<judo-runtime-core-version>1.0.6.20250820_080525_fc912113_develop</judo-runtime-core-version>
+        <judo-psm-generator-sdk-core-version>1.0.0.20250820_075229_83789a2a_develop</judo-psm-generator-sdk-core-version>
         <antlr-runtime-version>3.2</antlr-runtime-version>
 
         <!--suppress UnresolvedMavenProperty -->
