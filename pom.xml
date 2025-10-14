@@ -20,7 +20,7 @@
 
         <spring-boot.version>3.5.0</spring-boot.version>
 
-   		<judo-runtime-core-version>1.0.6.20250920_042605_ac01cf5d_develop</judo-runtime-core-version>
+   		<judo-runtime-core-version>1.0.6.20251013_090606_845f2946_develop</judo-runtime-core-version>
         <judo-psm-generator-sdk-core-version>1.0.0.20250926_213720_a16e6c4b_develop</judo-psm-generator-sdk-core-version>
         <antlr-runtime-version>3.2</antlr-runtime-version>
 
