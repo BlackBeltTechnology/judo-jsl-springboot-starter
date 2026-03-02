@@ -49,7 +49,7 @@ gitGraph
     checkout develop
     merge release/1.0-beta1 id: "merge-release-to-dev"
 
-    checkout main
+    checkout master
     merge release/1.0-beta1 id: "release-1.0" tag: "v1.0.0"
 ```
 
