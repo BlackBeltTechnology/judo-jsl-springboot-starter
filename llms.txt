@@ -20,6 +20,16 @@ Key facts:
 
 - [pom.xml](pom.xml): The core of the project — all dependency declarations, plugin configuration, and Maven profiles
 
+## Depends on
+
+- [judo-meta-liquibase](../../models/judo-meta-liquibase): models/judo-meta-liquibase
+- [judo-dao-api](../../runtime/judo-dao-api): runtime/judo-dao-api
+- [judo-runtime-core](../../runtime/judo-runtime-core): runtime/judo-runtime-core
+- [judo-sdk-common](../../runtime/judo-sdk-common): runtime/judo-sdk-common
+- [judo-tatami-base](../../runtime/judo-tatami-base): runtime/judo-tatami-base
+- [mapper](../../runtime/mapper): runtime/mapper
+- [judo-psm-generator-sdk-core](../../template/judo-psm-generator-sdk-core): template/judo-psm-generator-sdk-core
+
 ## Optional
 
 - [.github/workflows/build.yml](.github/workflows/build.yml): Main CI build workflow
