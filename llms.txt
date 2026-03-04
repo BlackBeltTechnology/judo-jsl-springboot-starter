@@ -1,0 +1,39 @@
+# judo-jsl-springboot-starter
+
+> A Spring Boot starter that aggregates the entire JUDO runtime stack into a single Maven dependency for generated JSL-based applications.
+
+Key facts:
+- Java 21, Spring Boot 3.5.0
+- Maven 3.8.6 single-module project (dependency aggregator, no application source code)
+- Bundles JUDO runtime core, dispatcher, DAO layers (HSQLDB + PostgreSQL), access manager, and PSM (Platform Specific Model) generator SDK
+- License: Eclipse Public License 2.0 (EPL-2.0)
+- Version: `${revision}` property flattened at build time, currently `1.0.4-SNAPSHOT`
+
+## Docs
+
+- [README.md](README.md): Project overview with dependency architecture diagrams and build commands
+- [AGENTS.md](AGENTS.md): Complete project documentation — technology stack, build configuration, Maven profiles, and development setup
+- [CONTRIBUTING.md](CONTRIBUTING.md): Development setup, issue and PR submission guidelines
+- [CIFLOW.md](CIFLOW.md): GitFlow branching strategy and GitHub Actions CI/CD workflow documentation
+
+## Core
+
+- [pom.xml](pom.xml): The core of the project — all dependency declarations, plugin configuration, and Maven profiles
+
+## Depends on
+
+- [judo-meta-liquibase](../../models/judo-meta-liquibase): models/judo-meta-liquibase
+- [judo-dao-api](../../runtime/judo-dao-api): runtime/judo-dao-api
+- [judo-runtime-core](../../runtime/judo-runtime-core): runtime/judo-runtime-core
+- [judo-sdk-common](../../runtime/judo-sdk-common): runtime/judo-sdk-common
+- [judo-tatami-base](../../runtime/judo-tatami-base): runtime/judo-tatami-base
+- [mapper](../../runtime/mapper): runtime/mapper
+- [judo-psm-generator-sdk-core](../../template/judo-psm-generator-sdk-core): template/judo-psm-generator-sdk-core
+
+## Optional
+
+- [.github/workflows/build.yml](.github/workflows/build.yml): Main CI build workflow
+- [.github/workflows/release.yml](.github/workflows/release.yml): Release automation workflow
+- [.github/dependabot.yml](.github/dependabot.yml): Dependabot configuration for daily Maven dependency updates
+- [LICENSE.txt](LICENSE.txt): EPL-2.0 full license text
+- [logback-test.xml](logback-test.xml): Logback console appender config for test execution
