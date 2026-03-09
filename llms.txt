@@ -1,0 +1,39 @@
+# judo-jsl-springboot-starter
+
+> A Spring Boot starter that aggregates the entire JUDO runtime stack into a single Maven dependency for generated JSL-based applications.
+
+Key facts:
+- Java 21, Spring Boot 3.5.0
+- Maven 3.8.6 single-module project (dependency aggregator, no application source code)
+- Bundles JUDO runtime core, dispatcher, DAO layers (HSQLDB + PostgreSQL), access manager, and PSM (Platform Specific Model) generator SDK
+- License: Eclipse Public License 2.0 (EPL-2.0)
+- Version: `${revision}` property flattened at build time, currently `1.0.4-SNAPSHOT`
+
+## Docs
+
+- [README.md](README.md): Project overview with dependency architecture diagrams and build commands
+- [AGENTS.md](AGENTS.md): Complete project documentation — technology stack, build configuration, Maven profiles, and development setup
+- [CONTRIBUTING.md](CONTRIBUTING.md): Development setup, issue and PR submission guidelines
+- [CIFLOW.md](CIFLOW.md): GitFlow branching strategy and GitHub Actions CI/CD workflow documentation
+
+## Core
+
+- [pom.xml](pom.xml): The core of the project — all dependency declarations, plugin configuration, and Maven profiles
+
+## Depends on
+
+- [judo-meta-liquibase](../../models/judo-meta-liquibase): Liquibase database change management metamodel
+- [judo-dao-api](../../runtime/judo-dao-api): Core DAO interfaces for CRUD, query, navigation, and validation
+- [judo-runtime-core](../../runtime/judo-runtime-core): Multi-module runtime engine — data access, business logic, REST, and security
+- [judo-sdk-common](../../runtime/judo-sdk-common): Base classes for generated SDK — entity identity, DAO base, and query filters
+- [judo-tatami-base](../../runtime/judo-tatami-base): PSM transformation pipeline — models to schemas, expressions, and configurations
+- [mapper](../../runtime/mapper): Type mapper and coercer library with 60+ built-in converters
+- [judo-psm-generator-sdk-core](../../template/judo-psm-generator-sdk-core): Generates SDK core layer — DAOs, DTOs, builders, and DI wiring from PSM
+
+## Optional
+
+- [.github/workflows/build.yml](.github/workflows/build.yml): Main CI build workflow
+- [.github/workflows/release.yml](.github/workflows/release.yml): Release automation workflow
+- [.github/dependabot.yml](.github/dependabot.yml): Dependabot configuration for daily Maven dependency updates
+- [LICENSE.txt](LICENSE.txt): EPL-2.0 full license text
+- [logback-test.xml](logback-test.xml): Logback console appender config for test execution
